@@ -6,7 +6,8 @@ This project is an e-commerce application built using a microservices architectu
 
 ## Project Architecture
 
-<img width="567" alt="image" src="https://github.com/user-attachments/assets/b6331853-8fe9-4937-bcf5-89a9ae4e5f6c">
+<img width="617" alt="image" src="https://github.com/user-attachments/assets/77fac92b-c313-4fdf-9d99-01f83289f3e3">
+
 
 ## Technical Stack
 
@@ -19,10 +20,11 @@ This project is an e-commerce application built using a microservices architectu
 
 ## Microservices
 
-1. **Products Service**: Manages product information and inventory.
-2. **Orders Service**: Handles order processing and management.
-3. **Admin Service**: Provides administrative functionalities.
-4. **Image Service**: Manages product images.
+1. **Auth Service**: Handles user/admin auth & authorization.
+2. **Products Service**: Manages product information and inventory.
+3. **Orders Service**: Handles order processing and management.
+4. **Admin Service**: Provides administrative functionalities.
+5. **Image Service**: Manages product images.
 
 ## Key Features
 
@@ -32,6 +34,7 @@ This project is an e-commerce application built using a microservices architectu
 - Asynchronous communication between services using Kafka
 - Separate databases for each microservice
 - Frontend shopping cart functionality
+- Auth and Authorization for Role based access to various services.
 
 ## Database Schemas
 
