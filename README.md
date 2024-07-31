@@ -15,7 +15,7 @@ This project is an e-commerce application built using a microservices architectu
 - **Message Broker**: Apache Kafka
 - **Databases**: PostgreSQL (or other SQL databases)
 - **API Gateway**: Spring Cloud Gateway
-- **Frontend**: React.js (or your preferred framework)
+- **Frontend**: React.js using Vaadin for connecting to springboot
 
 ## Microservices
 
